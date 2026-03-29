@@ -1,4 +1,4 @@
-import myimages from './assets/Images/prime.png'
+import myimages from './assets/images/prime.png'
 import './Style/Signin.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
