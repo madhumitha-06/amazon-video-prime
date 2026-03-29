@@ -1,5 +1,5 @@
 import { faCircleInfo } from '@fortawesome/free-solid-svg-icons'
-import myimages from './assets/Images/prime.png'
+import myimages from './assets/images/prime.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Style/Createacc.css'
 import { useNavigate } from 'react-router-dom'
