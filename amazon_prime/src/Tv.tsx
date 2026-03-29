@@ -7,7 +7,7 @@ import myimages5 from './assets/images/tv5.jpeg'
 import myimages6 from './assets/images/tv6.jpeg'
 import './Style/tv.css'
 
-import myimages7 from './assets/Images/image3 copy.png'
+import myimages7 from './assets/images/image3 copy.png'
 import { faArrowTrendUp, faBasketShopping, faBullhorn, faCheck, faPlay } from '@fortawesome/free-solid-svg-icons'
 function TV(){
     return(
