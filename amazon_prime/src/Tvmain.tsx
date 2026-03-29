@@ -1,6 +1,6 @@
 import Tv from "./Tv"
 import { useState } from "react";
-import './Style/tv1.css'
+import './Style/Tv1.css'
 import tv1 from './assets/images/tv1.png'
 import tv2 from './assets/images/tv2.png'
 import tv3 from './assets/images/tv3.png'
