@@ -1,0 +1,31 @@
+import { faBasketShopping, faCameraRetro, faFilm, faPlus } from '@fortawesome/free-solid-svg-icons'
+import myimages7 from './assets/Images/prime1.png'
+import './Style/Tv1.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+function Livetv(props: any) {
+    return (
+        <>
+            <div style={{marginLeft:'20px'}} className="cardcontainer cardcontainer1">
+                <div className="movieCard">
+                    <button className='up'>Upcoming</button>
+                    <img src={props.parent.poster} alt="" className="movieposter" />
+                </div>
+                <div className="moviecard1">
+                    <img src={props.parent.poster} className="hoverPoster" />
+                    <p style={{fontSize:'10px'}} className="title">{props.parent.title}</p>
+                    <p className="id id1">{props.parent.id}</p>
+                    <p className="icon3">
+                        <FontAwesomeIcon style={{ color: "rgba(139, 124, 41, 1)" }} icon={faBasketShopping} />   Subscribe to FanCode for ₹899/year
+                    </p>
+                    <div className="whole">
+                        <p className="ic2"><FontAwesomeIcon icon={faPlus} /></p>
+                    </div>
+                    <div className="whole1">
+                        <button className="age age1">ALL</button>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+export default Livetv

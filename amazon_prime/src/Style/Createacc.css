@@ -1,0 +1,55 @@
+.createacc
+{
+    height: 290px;
+    width: 180px;
+    border: 0.3px solid lightgray;
+    padding-left: 7px;
+    margin-left: 275px;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.Create{
+    font-size: medium;
+}
+.detail
+{
+    font-size: xx-small;
+    font-weight:bold;
+    margin-bottom: -5px;
+      margin-left: 5px;
+      margin-top: 3px;
+}
+.detailinput
+{
+    height: 15px;
+    width: 160px;
+    margin-top: -20px;
+    font-size: 7px;
+    color: black;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    margin-left: 3px;
+    padding-left: 3px;
+}
+.password
+{
+    font-size: 8px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.verify
+{
+    font-size:8px;
+    font-weight: 200px;
+    margin-bottom: 5px;
+}
+.verifybtn
+{
+    height: 20px;
+    width: 160px;
+    background-color: rgb(243, 223, 124);
+    border-radius:20px;
+    font-size: xx-small;
+    margin-bottom: 3px;
+    border: none;
+}

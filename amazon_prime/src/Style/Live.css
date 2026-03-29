@@ -1,0 +1,39 @@
+.o1{
+    height: 700px;
+}
+.cardcontainer1{
+    margin-right: -65px;
+}
+.age1
+{
+    height: 20px;
+    width: 30px;
+    font-size: 9px;
+    border: none;
+    color: white;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.id1{
+    font-size: 9px;
+}
+.moviecard
+{
+    position: relative;
+}
+.up
+{
+    position: absolute;
+    left: 90px;
+    height: 12px;
+    width: 40px;
+    font-size: 7px;
+    border: none;
+    padding-top: -5px;
+    background-color: grey;
+    color: white;
+}
+.footer2
+{
+    margin-top: 300px;
+}

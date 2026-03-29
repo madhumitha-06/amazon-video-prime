@@ -1,0 +1,62 @@
+.watch
+{
+ border: none;
+ height: 30px;
+ width: 60px !important;
+ font-size: x-small;
+ border-radius: 3px;
+ margin-right: 10px;
+ background-color: black;
+ border: 1px solid grey;
+ color: white;
+}
+.watchdrop
+{
+    display: flex;
+    justify-content: space-between;
+}
+.drop{
+    display: flex;
+    height: 30px;
+    width: 130px;
+    font-size: x-small;
+    justify-content: center;
+    align-items: center;
+      margin-right: 20px;
+}
+.active
+{
+    background-color: rgb(92, 88, 88);
+}
+.w1
+{
+ padding-left: 250px;
+ padding-top: 20px;
+ margin-bottom: 0px;  
+ color: white;
+    font-size: x-small;
+}
+.w2
+{
+ padding-left: 150px;
+   color: white;
+    font-size: x-small;
+}
+.footer3
+{
+    margin-left: -100px !important;
+    margin-top: 500px !important;
+}
+.d3 
+{
+    color: rgb(83, 154, 247) !important;
+          font-size: 7px !important;
+          margin-left: 1px !important;
+
+}
+.pr{
+    margin-left: 430px;
+}
+.yyear2{
+    color: rgb(120, 115, 115) !important;
+}

@@ -1,0 +1,195 @@
+.c1 {
+  height: 270px;  
+  overflow: hidden;
+}
+.i1
+{
+    height: 270px;
+    object-fit: cover;
+}
+.i2
+{
+    height: 280px;
+    object-fit: cover;
+    object-position: 0% 10%;
+    background-color: black;
+}
+
+.o1
+{
+    background-color: black;
+    overflow: auto;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none;
+}
+.c1:hover .carousel-control-prev-icon,
+.c1:hover .carousel-control-next-icon {
+    display:block;
+    width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+}
+
+ .carousel-indicators {
+  margin-bottom: 10px;
+}
+
+.carousel-indicators [data-bs-target]{
+  width: 5px;     
+  height: 3px;      
+  margin-top: 20px;
+  background-color: rgba(255,255,255,0.4);
+  border: none;
+  border-radius: 3px;
+}
+
+
+.carousel-indicators .active{
+  background-color: white;
+  width: 7px;
+}
+.mov1
+{
+    position: relative;
+}
+.con1{
+    position: absolute;
+    top: 70px;
+    padding-left: 60px;
+    margin-top: -20px;
+}
+.con1 h1{
+  color: rgb(247, 213, 63);
+}
+.con1 p,.con1 span
+{
+    color: white;
+}
+.i{
+    height: 30px;
+    width: 50px;
+}
+.lan{
+    display: flex;
+    gap: 5px;
+    font-size: x-small;
+    padding-left: 20px;
+    margin-top: -12px;
+}
+.green
+{
+    color:rgb(45, 214, 45);
+    font-size: xx-small;
+    padding-left: 10px;
+    margin-top: -10px;
+}
+.h1{
+    height: 35px;
+    width: 70px;
+    font-size: x-small;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(59, 57, 57);
+    border: none;
+}
+.sym
+{
+    display: flex;
+    border-radius: 50%;
+    margin-left: 15px;
+    font-size: x-large;
+    margin-top: -5px;
+    justify-content: center;
+    align-items: center;
+}
+.sym1
+{
+    margin-left: 15px;
+    font-size: medium;
+    color: white;
+    margin-top: -17px;
+
+}
+.last{
+    font-size: x-small;
+    margin-top: -2px;
+}
+.f1{
+    display: flex;
+    align-items: center;
+}
+.lan1
+{
+    display: flex;
+    margin-left: 5px !important;
+    font-size: xx-small;
+    margin-top: -10px;
+}
+.h2
+{
+   height: 35px;
+    width: 90px;
+    font-size: x-small;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(59, 57, 57);
+    border: none;  
+}
+.con2{
+    position: absolute;
+    top: 130px;
+    padding-left: 70px;
+    margin-top: -20px;
+}
+.i1{
+    height: 50px;
+    width: 50px;
+}
+.heading
+{
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+.h3
+{
+   height: 35px;
+    width: 150px;
+    font-size: x-small;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(59, 57, 57);
+    border: none;  
+}
+.last1
+{
+    margin-bottom: 20px !important;
+    font-size:8px;
+}
+.con3{
+    position: absolute;
+    top: 100px !important;
+    left: 30px !important;
+    padding-left: 50px;
+    margin-top: -20px;
+}
+.head{
+    margin-bottom: 15px;
+}
+.con1 button:hover
+{
+    color: black;
+    background-color: white;
+}
+.p{
+    color: white;
+    font-size: x-small;
+    font-weight: 600;
+    padding-left: 25px;
+    margin-top: 15px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

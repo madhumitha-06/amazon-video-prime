@@ -1,0 +1,119 @@
+.overall1
+{
+  display: flex;
+  background-color: black;
+  color: white;
+}
+.prime1
+{
+  width: 50%;
+  padding-top: 20px;
+  padding-left: 26px;
+}
+.image1
+{
+  height: 380px;
+  width: 57%;
+  object-fit: cover;
+  object-position: 20px;
+}
+.content
+{
+  font-size: xx-small;
+}
+.b1
+{
+  height: 30px;
+  width: 170px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-size: xx-small;
+  font-weight: 500;
+  margin-left: 50px;
+}
+.b1:hover
+{
+  color: grey;
+  box-shadow:0 15px 35px rgba(0,0,0,.8);
+  background-color: lightgray;
+}
+.last1
+{
+  margin-top: 20px !important;
+}
+.caption
+{
+  font-size: 9px;
+  margin-left: 85px;
+ margin-top: 5px;
+}
+.overall2
+{
+  margin-top: 50px;
+}
+.full
+{
+  background-color: black;
+}
+.rent
+{
+  height: 30px;
+  width: 60px;
+  margin-left: 0px !important;
+  margin-top: 10px;
+  font-weight: 600 !important;
+}
+.content1
+{
+  margin-top: 20px !important;
+}
+.prime2
+{
+  padding-top: 50px;
+}
+.imageset{
+  width: 50%;
+  display:flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.icon1
+{
+  height: 78px;
+  width: 110px;
+  border-radius: 5px;
+}
+.overall3
+{
+  background-color: rgb(4, 4, 5) !important;
+}
+.watch5
+{
+  height: 30px;
+  width: 90px !important;
+}
+.prime3
+{
+  padding-top: 70px;
+}
+.footer
+{
+  height: 70px;
+  background-color: rgb(29, 27, 27);
+}
+.foot-img
+{
+  height: 15px;
+  width: 50px;
+  margin-left: 350px;
+}
+.down1
+{
+  margin-top: 5px;
+}
+.p1
+{
+  color: rgb(198, 188, 188);
+}

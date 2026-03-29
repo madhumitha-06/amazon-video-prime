@@ -1,0 +1,113 @@
+.img1 {
+    height: 60px;
+    width: 100px;
+    object-fit: cover;
+    margin-left: 320px;
+
+}
+
+.forgot-text {
+    display: block;
+    padding: 8px 16px;
+    cursor: pointer;
+    color: #000;
+}
+
+.need {
+    cursor: pointer;
+}
+
+.main {
+    height: 160px;
+    width: 190px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 5px;
+    padding-left: 16px;
+    padding-top: 15px;
+    margin-left: 280px;
+}
+
+
+.input {
+    height: 20px;
+    width: 160px;
+    margin-top: -20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+
+}
+
+.enter {
+    margin-top: -15px;
+    font-weight: 600;
+    font-size: 8px;
+
+
+}
+
+.btn2 {
+    height: 20px;
+    width: 160px;
+    border-radius: 20px;
+    font-size: x-small;
+    border: none;
+    background-color: rgb(243, 198, 84);
+}
+
+.dropdown {
+    margin-top: -9px;
+    font-size: 8px;
+    color:rgb(18, 93, 205);
+}
+
+.statement {
+    font-size: 6px;
+}
+
+.signin {
+    font-weight: 600;
+    font-size: x-small;
+}
+
+.span {
+    color: rgb(18, 93, 205);
+    text-decoration: underline;
+}
+
+.down {
+    display: flex;
+    gap: 15px;
+    padding-left: 285px;
+    font-size: 6px;
+    margin-top: -5px;
+    color: rgb(18, 93, 205);
+}
+
+.new {
+    padding-top: 5px;
+    padding-left: 345px;
+    margin-bottom: -3px;
+    font-size: 7px;
+}
+
+.button3 {
+    height: 17px;
+    width: 185px;
+    border-radius: 20px;
+    font-size: 8px;
+    border: 0.1px solid black;
+    background-color: white;
+    margin-left: 285px;
+
+}
+
+.para {
+    padding-left: 305px;
+    font-size: 6px;
+    margin-top: -9px;
+}
+
+

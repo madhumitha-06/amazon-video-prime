@@ -1,0 +1,102 @@
+.watchimg
+{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.watchany1{
+    position: absolute;
+    top: 90px;
+    left: 420px;
+}
+.watchany2{
+   position: absolute;
+    top: 130px;
+    left: 425px;
+    font-size: x-small;
+}
+.watchany3{
+   position: absolute;
+    top: 145px;
+    left: 425px;
+    font-size: x-small;
+}
+.newprime
+{
+    margin-left: 300px;
+    color:rgb(117, 116, 116);
+    font-size: small;
+        margin-bottom: 0px;
+}
+.monthly
+{
+    height: 22px;
+    width: 220px;
+    font-size: xx-small;
+    color: white;
+    background-color: rgb(29, 132, 184);
+    border: none;
+    margin-left: 250px
+}
+.primewatch
+{
+margin-top: 15px;
+margin-left: 10px;
+font-size: large;
+}
+.locate
+{
+    margin-top: 25px;
+    font-size:8px;
+    color: rgb(125, 123, 123);
+    margin-left: 10px;
+}
+.locatespan{
+    color: rgb(16, 105, 157);
+}
+.locatespan:hover{
+    text-decoration: underline;
+}
+.side
+{
+    display: flex;
+    margin-top: 40px;
+}
+.sideimg{
+    height: 80px;
+    width: 130px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-right: 1px solid white;
+    
+}
+.side li{
+    font-size: 8px;
+    margin-left: 15px;
+}
+.side h6{
+    margin-left: 30px;
+}
+.get
+{
+font-size: medium;
+color: grey;
+margin-left: 300px;
+}
+.is{
+    display: flex;
+    gap: 10px;
+   margin-left: 170px;
+}
+.is img
+{
+    border-radius: 5px;
+      height: 30px;
+    width: 120px;
+    object-fit: cover;
+}
+.footer4
+{
+    margin-top: 20px !important;
+}

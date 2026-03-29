@@ -1,0 +1,101 @@
+*
+{
+    box-sizing: border-box;
+}
+.Genres p{
+height: 60px;
+width: 123px;
+background-color: aqua;
+font-size: x-small;
+padding-top: 20px;
+padding-left: 21px;
+border-radius: 5px;
+}
+.Genres{
+    display: flex;
+    flex-wrap: wrap;
+    gap:7px;
+}
+.whole2
+{
+    background-color: black;
+    color: white;
+    padding-left: 40px;
+}
+.Featured
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+.Featured p{
+height: 60px;
+width: 120px;
+background-color: rgb(19, 141, 228);
+font-size: xx-small;
+padding-top: 23px;
+padding-left: 4px;
+border-radius: 5px;
+text-align: center;
+}
+.Categories
+{
+  font-size: small;
+  font-weight: bold;
+  padding-bottom: -20px;
+  padding-top: 10px;
+}
+.titles
+{
+    font-size: x-small;
+    padding-top: -20px;
+}
+.bottom
+{
+    display: flex;
+    gap: 10px;
+    font-size: 7px;
+    margin-left: 150px;
+
+}
+.foot1
+{
+    margin-left: 300px !important;
+    margin-top: 300px;
+    margin-bottom: 7px;
+}
+.box1
+{
+    background-image: linear-gradient(to left bottom,rgb(31, 32, 31),rgb(44, 63, 44));
+}
+.box2
+{
+    background-image: linear-gradient(to left bottom,rgb(59, 43, 58),rgb(88, 66, 90));
+}
+.box3{
+    background-image: linear-gradient(to left bottom,rgb(63, 90, 25),rgb(34, 36, 30));
+}
+.box4{
+    background-image: linear-gradient(to left bottom,rgb(47, 49, 45),rgb(166, 191, 115));
+}
+.box5{
+    background-image: linear-gradient(to left bottom,rgb(82, 42, 109),rgb(34, 36, 30));
+}
+.box6{
+    background-image: linear-gradient(to left bottom,rgb(37, 64, 89),rgb(34, 36, 30));
+}
+.box7{
+    background-image: linear-gradient(to left bottom,rgb(86, 33, 42),rgb(34, 36, 30));
+}
+.box8{
+    background-image: linear-gradient(to left bottom,rgb(28, 51, 101),rgb(45, 11, 55));
+}
+.box9{
+    background-image: linear-gradient(to left bottom,rgb(40, 31, 44),rgb(34, 36, 30));
+}
+.box10{
+    background-image: linear-gradient(to left bottom,rgb(63, 90, 25),rgb(34, 36, 30));
+}
+.box11{
+    background-image: linear-gradient(to left bottom,rgb(76, 81, 69),rgb(34, 36, 30));
+}
