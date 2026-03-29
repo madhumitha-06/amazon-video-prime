@@ -1,5 +1,5 @@
 import { faBasketShopping, faCameraRetro, faFilm, faPlus } from '@fortawesome/free-solid-svg-icons'
-import myimages7 from './assets/Images/prime1.png'
+import myimages7 from './assets/images/prime1.png'
 import './Style/Tv1.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Tv2(props:any){

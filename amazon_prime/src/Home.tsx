@@ -1,7 +1,7 @@
 import './Style/Home.css'
-import myimages from './assets/Images/movie1.jpeg'
-import myimages1 from './assets/Images/image3.jpeg'
-import myimages3 from './assets/Images/movie3 copy.jpeg'
+import myimages from './assets/images/movie1.jpeg'
+import myimages1 from './assets/images/image3.jpeg'
+import myimages3 from './assets/images/movie3 copy.jpeg'
 import { useNavigate } from 'react-router-dom';
 
 function Home() {

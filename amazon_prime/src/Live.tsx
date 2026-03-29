@@ -1,10 +1,10 @@
 import { useState } from "react"
 import Livetv from "./Livetv"
 import './Style/Live.css'
-import mov1 from './assets/Images/cri1.jpeg'
-import mov2 from './assets/Images/cri2.jpeg'
-import mov3 from './assets/Images/cri3.jpeg'
-import mov4 from './assets/Images/cri1.jpeg'
+import mov1 from './assets/images/cri1.jpeg'
+import mov2 from './assets/images/cri2.jpeg'
+import mov3 from './assets/images/cri3.jpeg'
+import mov4 from './assets/images/cri1.jpeg'
 import Live1 from "./Live1"
 function Live() {
     const [movies] = useState([

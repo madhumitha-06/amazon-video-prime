@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Style/Help.css'
 import { faClock, faGear, faTv } from '@fortawesome/free-solid-svg-icons'
-import myimages from './assets/Images/prime.png'
+import myimages from './assets/images/prime.png'
 
 function Help() {
     return (
