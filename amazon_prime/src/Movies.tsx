@@ -29,7 +29,7 @@ import Cards4 from "./Card4";
 
 
 function Movies() {
-  const [movies, setmovies] = useState([
+  const [movies] = useState([
     {
       id: '#10 in adventure movies',
       title: 'Kalki 2898 AD',
@@ -77,7 +77,7 @@ function Movies() {
       description: "Christopher Nolan directs this sci-fi epic that follows a former NASA pilot and his crew on action"
     },
   ])
-  const [movies1, setmovies1] = useState([
+  const [movies1] = useState([
     {
       id: '#10 in adventure movies',
       title: 'Pushpa : The Rise',
@@ -125,7 +125,7 @@ function Movies() {
       description: "Seven years after the case related to Vijay and his family was closed, a series of unexpected events brings a truth to light that threatens to change everything"
     }
   ])
-  const [movies2, setmovies2] = useState([
+  const [movies2] = useState([
     {
       id: 'Spent 18 weeks in Top 10',
       title: "Ponniyin Selvan Part 2",
@@ -173,7 +173,7 @@ function Movies() {
     }
 
   ])
-  const [movies4, setmovies4] = useState([
+  const [movies4] = useState([
     {
       id: 'Spent 18 weeks in Top 10',
       title: "Teri Baaton Mein Aisa Uljha Jiya",

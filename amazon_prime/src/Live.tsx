@@ -7,7 +7,7 @@ import mov3 from './assets/Images/cri3.jpeg'
 import mov4 from './assets/Images/cri1.jpeg'
 import Live1 from "./Live1"
 function Live() {
-    const [movies, setmovies] = useState([
+    const [movies] = useState([
         {
             id: 'Live at 6:30 PM',
             title: 'Royal Riders Punjab vs. India Tigers',

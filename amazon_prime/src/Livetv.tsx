@@ -1,5 +1,4 @@
-import { faBasketShopping, faCameraRetro, faFilm, faPlus } from '@fortawesome/free-solid-svg-icons'
-import myimages7 from './assets/Images/prime1.png'
+import { faBasketShopping, faPlus } from '@fortawesome/free-solid-svg-icons'
 import './Style/Tv1.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Livetv(props: any) {
