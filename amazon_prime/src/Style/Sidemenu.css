@@ -18,8 +18,7 @@
 
 .Headermenu {
     height: 30px;
-    width: 10
-    0%;
+    width: 100%;
     background-color: black; 
     display: flex;
     gap: 90px;

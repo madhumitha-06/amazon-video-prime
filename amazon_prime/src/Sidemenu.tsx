@@ -134,7 +134,7 @@ function Sidemenu() {
             <p className="para1"><i className="bi bi-person-circle profile"></i></p>
             <ul className="profile_menu">
               <li className="heading1">Your Account</li>
-              <li onClick={() => Mynav('signin')} className="title1">Sign in</li>
+              <li onClick={() => Mynav('signout')} className="title1">Sign out</li>
               <li className="title1" onClick={() => Mynav('help')} >Help</li>
               <li className="title1" onClick={() => Mynav('Watchany')}>Watch Anywhere</li>
             </ul>

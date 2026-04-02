@@ -14,6 +14,7 @@ import Watchany from "../Watchany";
 import Help from "../Help";
 import PaymentPage from "../payment";
 import Createacc from "../Createaccount";
+import SignOut from "../Signout";
 
 
 
@@ -35,8 +36,9 @@ function Myroutes() {
                     <Route path="watchany" element={<Watchany></Watchany>}></Route>
                     <Route path="help" element={<Help></Help>}></Route>    
                     <Route path="payment" element={<PaymentPage></PaymentPage>}></Route>
-                    <Route path="/payment" element={<PaymentPage />} />  
-                   
+                    <Route path="/payment" element={<PaymentPage />} /> 
+                    <Route path="/signout" element={<SignOut />} /> 
+
                 </Route>
                 <Route path="signin" element={<Signin></Signin>}></Route>
                 <Route path="createacc" element={<Createacc></Createacc>}></Route>    
