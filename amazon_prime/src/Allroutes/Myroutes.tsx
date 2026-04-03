@@ -16,8 +16,6 @@ import PaymentPage from "../payment";
 import Createacc from "../Createaccount";
 import SignOut from "../Signout";
 
-
-
 function Myroutes() {
     return (
         <>
@@ -38,7 +36,6 @@ function Myroutes() {
                     <Route path="payment" element={<PaymentPage></PaymentPage>}></Route>
                     <Route path="/payment" element={<PaymentPage />} /> 
                     <Route path="/signout" element={<SignOut />} /> 
-
                 </Route>
                 <Route path="signin" element={<Signin></Signin>}></Route>
                 <Route path="createacc" element={<Createacc></Createacc>}></Route>    

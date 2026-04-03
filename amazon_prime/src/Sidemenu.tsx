@@ -105,7 +105,7 @@ function Sidemenu() {
         </div>
         <div className="head2">
           <div>
-            <p onClick={openSearch} className={`para1 sidemenu ${currenturl === "search" ? "selectedpath" : ""}`}><FontAwesomeIcon icon={faMagnifyingGlass} /></p>
+            <p onClick={openSearch} className={`para1 sidemenu ${currenturl === "search" ? "selectedpath" : ""}`}><FontAwesomeIcon className="bm" icon={faMagnifyingGlass} /></p>
             {open && (
               <div className="overlay">
                 {/* <div className="overlay-bg" onClick={closeSearch}></div> */}
@@ -119,7 +119,7 @@ function Sidemenu() {
             )}
           </div>
           <div className="profile-container">
-            <p className="para1"><FontAwesomeIcon icon={faBookmark} /></p>
+            <p className="para1"><FontAwesomeIcon className="bm" icon={faBookmark} /></p>
             <ul className="profile_menu bookmark">
               <li className="title1" onClick={() => Mynav('all')}>All</li>
               <li  onClick={() => Mynav('watchlist')} className="title1">Watchlist</li>
@@ -128,15 +128,15 @@ function Sidemenu() {
           </div>
 
 
-          <p onClick={() => Mynav('categories')} className={`para1 sidemenu ${currenturl === "categories" ? "selectedpath" : ""}`}><i className="bi bi-grid-3x3-gap-fill"></i></p>
+          <p onClick={() => Mynav('categories')} className={`para1 sidemenu ${currenturl === "categories" ? "selectedpath" : ""}`}><i className="bi bi-grid-3x3-gap-fill bm"></i></p>
 
           <div className="profile-container">
-            <p className="para1"><i className="bi bi-person-circle profile"></i></p>
+            <p className="para1"><i className="bi bi-person-circle profile bm"></i></p>
             <ul className="profile_menu">
               <li className="heading1">Your Account</li>
-              <li onClick={() => Mynav('signout')} className="title1">Sign out</li>
-              <li className="title1" onClick={() => Mynav('help')} >Help</li>
-              <li className="title1" onClick={() => Mynav('Watchany')}>Watch Anywhere</li>
+              <li onClick={() => Mynav('signout')} className="title1 sam">Sign out</li>
+              <li className="title1 sam" onClick={() => Mynav('help')} >Help</li>
+              <li className="title1 sam" onClick={() => Mynav('Watchany')}>Watch Anywhere</li>
             </ul>
           </div>
           <button onClick={() => Mynav('join')} type="button" className="btn1 py-1">Join Prime</button>

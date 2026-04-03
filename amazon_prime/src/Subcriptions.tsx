@@ -287,15 +287,15 @@ export default function SubscriptionPage({ onSelectPlan }: { onSelectPlan?: (pla
             </div>
 
             {/* ── FOOTER ── */}
-            <div className='footer footer1 footer2 footer3' >
-                <img className='foot-img pr' src="https://m.media-amazon.com/images/G/01/digital/video/acquisition/logo/pv_logo_white._CB548637580_.png" alt="Amazon"></img>
-                <div className='down down1 down2 d3'>
-                    <p>Terms and Privacy Notice</p>
-                    <p>Send as Feedback</p>
-                    <p>Help</p>
-                    <p className="yyear yyear2">© 1996-2026, Amazon.com, Inc. or its affiliates</p>
-                </div>
-            </div>
+            <div className='footer footer1 foot' >
+          <img className='foot-img' src="https://m.media-amazon.com/images/G/01/digital/video/acquisition/logo/pv_logo_white._CB548637580_.png" alt="Amazon"></img>
+          <div className='down down1 down3'>
+            <p>Terms and Privacy Notice</p>
+            <p>Send as Feedback</p>
+            <p>Help</p>
+            <p className="yyear">© 1996-2026, Amazon.com, Inc. or its affiliates</p>
+          </div>
+        </div>
         </div>
     );
 }

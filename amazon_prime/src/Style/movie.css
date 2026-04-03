@@ -1,5 +1,8 @@
+body{
+    background-color: black;
+}
 .c1 {
-  height: 270px;  
+  height: 500px;  
   overflow: hidden;
 }
 .i1
@@ -9,7 +12,7 @@
 }
 .i2
 {
-    height: 280px;
+    height: 100px;
     object-fit: cover;
     object-position: 0% 10%;
     background-color: black;
@@ -18,7 +21,7 @@
 .o1
 {
     background-color: black;
-    overflow: auto;
+    /* overflow: auto; */
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -44,8 +47,6 @@
   border: none;
   border-radius: 3px;
 }
-
-
 .carousel-indicators .active{
   background-color: white;
   width: 7px;
@@ -57,8 +58,8 @@
 .con1{
     position: absolute;
     top: 70px;
-    padding-left: 60px;
-    margin-top: -20px;
+    padding-left: 100px;
+    margin-top: 20px;
 }
 .con1 h1{
   color: rgb(247, 213, 63);
@@ -74,21 +75,21 @@
 .lan{
     display: flex;
     gap: 5px;
-    font-size: x-small;
+    font-size:medium;
     padding-left: 20px;
     margin-top: -12px;
 }
 .green
 {
     color:rgb(45, 214, 45);
-    font-size: xx-small;
-    padding-left: 10px;
+    font-size: small;
+    padding-left: 20px;
     margin-top: -10px;
 }
 .h1{
-    height: 35px;
-    width: 70px;
-    font-size: x-small;
+    height:60px;
+    width: 140px;
+    font-size:large;
     border-radius: 5px;
     color: white;
     background-color: rgb(59, 57, 57);
@@ -96,25 +97,30 @@
 }
 .sym
 {
+    width: 40px;    
+    height: 40px;
     display: flex;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     margin-left: 15px;
-    font-size: x-large;
+    font-size: xx-large;
     margin-top: -5px;
     justify-content: center;
     align-items: center;
 }
 .sym1
 {
+
     margin-left: 15px;
-    font-size: medium;
+    border-radius: 50%;
+    font-size:xx-large;
     color: white;
     margin-top: -17px;
 
 }
 .last{
-    font-size: x-small;
+    font-size:large;
     margin-top: -2px;
+    padding-top: 20px;
 }
 .f1{
     display: flex;
@@ -124,7 +130,7 @@
 {
     display: flex;
     margin-left: 5px !important;
-    font-size: xx-small;
+    font-size: medium;
     margin-top: -10px;
 }
 .h2
@@ -140,8 +146,8 @@
 .con2{
     position: absolute;
     top: 130px;
-    padding-left: 70px;
-    margin-top: -20px;
+    padding-left: 100px;
+    margin-top: 20px;
 }
 .i1{
     height: 50px;
@@ -164,6 +170,7 @@
 }
 .last1
 {
+     font-size:large;
     margin-bottom: 20px !important;
     font-size:8px;
 }
@@ -171,8 +178,8 @@
     position: absolute;
     top: 100px !important;
     left: 30px !important;
-    padding-left: 50px;
-    margin-top: -20px;
+    padding-left: 100px;
+    margin-top: 20px;
 }
 .head{
     margin-bottom: 15px;
@@ -184,7 +191,7 @@
 }
 .p{
     color: white;
-    font-size: x-small;
+    font-size: large;
     font-weight: 600;
     padding-left: 25px;
     margin-top: 15px;
@@ -192,4 +199,7 @@
 
 ::-webkit-scrollbar {
   display: none;
+}
+.down1{
+    margin-left: -100px;
 }

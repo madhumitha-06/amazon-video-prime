@@ -273,7 +273,7 @@ function TVmain(){
         <button className="see">See more</button>
         <div className='footer footer1' >
           <img className='foot-img' src="https://m.media-amazon.com/images/G/01/digital/video/acquisition/logo/pv_logo_white._CB548637580_.png" alt="Amazon"></img>
-          <div className='down down1 down2'>
+          <div className='down down1 down3'>
             <p>Terms and Privacy Notice</p>
             <p>Send as Feedback</p>
             <p>Help</p>

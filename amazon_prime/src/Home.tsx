@@ -11,7 +11,7 @@ function Home() {
             <div className='full'>
                 <div className='overall1'>
                     <div className='prime1'>
-                        <h3>Welcome to Prime video</h3>
+                        <h3 className='welcome'>Welcome to Prime video</h3>
                         <p className='content'>Watch the latest movies, TV shows, and Award-winning Amazon Originals</p>
                         <button onClick={() =>
                             navigate("/payment", { state: { price: 799 } })
@@ -33,7 +33,7 @@ function Home() {
                 </div>
                 <div className='overall1 overall2'>
                     <div className='prime1 prime2'>
-                        <h3>Movie rentals on Prime Video</h3>
+                        <h3 className='welcome'>Movie rentals on Prime Video</h3>
                         <p className='content content1'>Early Access to new movies, before digital subscription</p>
                         <button className='rent b1'>Rent Now</button>
                     </div>
@@ -41,24 +41,24 @@ function Home() {
                 </div>
                 <div className='overall1 overall2 overall3'>
                     <div className='prime1 prime2'>
-                        <h3>Your favorite subscriptions all in one place</h3>
+                        <h3 className='welcome'>Your favorite subscriptions all in one place</h3>
                         <p className='content content1'>Customers can subscribe to get access to a variety of premium and specialty content, easily accessible within the Prime Video app</p>
                     </div>
                     <div className='imageset'>
                         <img className='icon1' src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_AppleTV_V1._AC_SX400_QL80_FP_.png" alt="Apple TV+"></img>
                         <img className='icon1' src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Crunchyroll_V1._AC_SX400_QL80_FP_.png" alt="Crunchyroll"></img>
                         <img className='icon1' src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_LGP_V1._AC_SX400_QL80_FP_.png" alt="Lionsgate Play"></img>
-                        <img className='icon1' src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Discovery_V1._AC_SX400_QL80_FP_.png" alt="Discovery+"></img>
-                        <img className='icon1' src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Anime_V1._AC_SX400_QL80_FP_.png" alt="Anime Times"></img>
-                        <img className='icon1' src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Manoramamax_V1._AC_SX400_QL80_FP_.png" alt="ManoramaMax"></img>
-                        <img className='icon1' src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Chaupal_V1._AC_SX400_QL80_FP_.png" alt="Chaupal"></img>
-                        <img className='icon1' src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_BBC_V1._AC_SX400_QL80_FP_.png" alt="BBC Player"></img>
-                        <img className='icon1' src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Fancode_V1._AC_SX400_QL80_FP_.png" alt="Fancode"></img>
+                        <img className='icon1 ice1' src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Discovery_V1._AC_SX400_QL80_FP_.png" alt="Discovery+"></img>
+                        <img className='icon1 ice1' src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Anime_V1._AC_SX400_QL80_FP_.png" alt="Anime Times"></img>
+                        <img className='icon1 ice1' src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Manoramamax_V1._AC_SX400_QL80_FP_.png" alt="ManoramaMax"></img>
+                        <img className='icon1 ice1' src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Chaupal_V1._AC_SX400_QL80_FP_.png" alt="Chaupal"></img>
+                        <img className='icon1 ice1' src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_BBC_V1._AC_SX400_QL80_FP_.png" alt="BBC Player"></img>
+                        <img className='icon1 ice1' src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Fancode_V1._AC_SX400_QL80_FP_.png" alt="Fancode"></img>
                     </div>
                 </div>
                 <div className='overall1 overall2'>
                     <div className='prime1 prime2 prime3'>
-                        <h3>Amazon MX Player</h3>
+                        <h3 className='welcome'>Amazon MX Player</h3>
                         <p className='content content1'>Binge watch latest web series, K-drama and more</p>
                         <button className='b1 rent watch5'>Watch For Free</button>
                     </div>

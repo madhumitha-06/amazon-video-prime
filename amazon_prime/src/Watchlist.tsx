@@ -13,8 +13,8 @@ function Watchlist() {
 
     return (
         <>
-            <div style={{ backgroundColor: 'black' }}>
-                <h4 style={{ color: 'white', marginLeft: '30px', paddingTop: '20px' }}>Watchlist</h4>
+            <div style={{ backgroundColor: 'black',marginLeft:"20px" }}>
+                <h4 style={{ color: 'white', marginLeft: '30px', paddingTop: '20px',marginBottom:"20px", fontSize: "40px" }}>Watchlist</h4>
                 <div className="watchdrop">
                     <div style={{ marginLeft: '30px' }}>
                         <button className={`watch ${selectedTab === "All" ? "active" : ""}`} onClick={() => setSelectedTab("All")}>All</button>
@@ -36,13 +36,13 @@ function Watchlist() {
                 </div>
                 <p className="w1">You have no TV shows on Your Watchlist</p>
                 <p className="w2">Add <u>TV shows</u> and <u>Movies</u> that you want to watch later by clicking Add to Watchlist.</p>
-                <div className='footer footer1 footer2 footer3' >
-                    <img className='foot-img pr' src="https://m.media-amazon.com/images/G/01/digital/video/acquisition/logo/pv_logo_white._CB548637580_.png" alt="Amazon"></img>
-                    <div className='down down1 down2 d3'>
+                <div className='footer footer1 foot fast fast1' >
+                    <img className='foot-img' src="https://m.media-amazon.com/images/G/01/digital/video/acquisition/logo/pv_logo_white._CB548637580_.png" alt="Amazon"></img>
+                    <div className='down down1 down3'>
                         <p>Terms and Privacy Notice</p>
                         <p>Send as Feedback</p>
                         <p>Help</p>
-                        <p className="yyear yyear2">© 1996-2026, Amazon.com, Inc. or its affiliates</p>
+                        <p className="yyear">© 1996-2026, Amazon.com, Inc. or its affiliates</p>
                     </div>
                 </div>
             </div>

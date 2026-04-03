@@ -3,24 +3,24 @@
     box-sizing: border-box;
 }
 .Genres p{
-height: 60px;
-width: 123px;
+height: 130px;
+width: 233px;
 background-color: aqua;
-font-size: x-small;
-padding-top: 20px;
-padding-left: 21px;
-border-radius: 5px;
+font-size:large;
+padding-top: 50px;
+padding-left: 30px;
+border-radius: 10px;
 }
 .Genres{
     display: flex;
     flex-wrap: wrap;
-    gap:7px;
+    gap:10px;
 }
 .whole2
 {
     background-color: black;
     color: white;
-    padding-left: 40px;
+    padding-left: 50px;
 }
 .Featured
 {
@@ -29,25 +29,25 @@ border-radius: 5px;
     gap: 10px; 
 }
 .Featured p{
-height: 60px;
-width: 120px;
+height: 130px;
+width: 230px;
 background-color: rgb(19, 141, 228);
-font-size: xx-small;
-padding-top: 23px;
+font-size: large;
+padding-top: 50px;
 padding-left: 4px;
 border-radius: 5px;
 text-align: center;
 }
 .Categories
 {
-  font-size: small;
+  font-size: 30px;
   font-weight: bold;
   padding-bottom: -20px;
   padding-top: 10px;
 }
 .titles
 {
-    font-size: x-small;
+    font-size: x-large;
     padding-top: -20px;
 }
 .bottom

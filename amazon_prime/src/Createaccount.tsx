@@ -57,8 +57,9 @@ function Createacc() {
 
     return (
         <>
+        <div className='singer'> 
             <img
-                style={{ height: '50px', width: '70px', marginLeft: '330px' }}
+                style={{ height: '70px', width: '120px', marginLeft: '680px' }}
                 src={myimages}
                 alt=""
             />
@@ -101,12 +102,12 @@ function Createacc() {
 
                 {/* Error and Success messages */}
                 {error && (
-                    <p style={{ color: 'red', fontSize: '5px', marginBottom: '3px' }}>
+                    <p style={{ color: 'red', fontSize: '10px', marginBottom: '3px' }}>
                         {error}
                     </p>
                 )}
                 {success && (
-                    <p style={{ color: 'green', fontSize: '5px', marginBottom: '3px' }}>
+                    <p style={{ color: 'green', fontSize: '10px', marginBottom: '3px' }}>
                         {success}
                     </p>
                 )}
@@ -120,7 +121,7 @@ function Createacc() {
                     Verify Mobile Number
                 </button>
 
-                <p style={{ fontSize: '8px', marginBottom: '5px', marginTop: '3px' }}>
+                <p style={{ fontSize: 'x-small', marginBottom: '5px', marginTop: '15px',marginLeft:"5px",fontWeight:"500" }}>
                     Already Have an Account?{' '}
                     <span
                         style={{ color: 'rgba(62, 137, 242, 1)', cursor: 'pointer' }}
@@ -129,7 +130,7 @@ function Createacc() {
                     </span>
                 </p>
 
-                <p className='statement'>
+                <p className='statement statement1'>
                     By continuing, you agree to the Amazon
                     <span className='span'> condition of use and Privacy Notice</span>
                 </p>
@@ -141,6 +142,7 @@ function Createacc() {
                 <p>Help</p>
             </div>
             <p className='para'>©️ 1996-2026, Amazon.com, Inc. or its affiliates</p>
+        </div>
         </>
     );
 }

@@ -27,7 +27,7 @@ function TV(){
                         <img src={myimages1} className="d-block w-100 i2" alt="..." />
                         <div className='con1'>
                             <img className='i' src={myimages7} alt="" />
-                            <h1>Mirzapur</h1>
+                            <h1 className='welcome1'>Mirzapur</h1>
                             <div className='lan'>
                                 <p>HINDI  |</p>
                                 <p>  TAMIL  |</p>
@@ -45,7 +45,7 @@ function TV(){
                         <img src={myimages2} className="d-block w-100 i2" alt="..." />
                         <div className='con1  con3'>
                             <p className='mx'><button className='play1'><FontAwesomeIcon className='play' icon={faPlay} /></button><span className='mx1'>MX</span>Player</p>
-                            <h1 className='mn'>SANKALP</h1>
+                            <h1 className='mn welcome1'>SANKALP</h1>
                             <p className='ns'>NEW SERIES</p>
                             <div className='f1'><button className='h2 f2'><FontAwesomeIcon className='play3' icon={faPlay} />Episode 1 Watch Now</button>
                                 <button className='sym sym2'>+</button>
@@ -58,7 +58,7 @@ function TV(){
                         <img src={myimages3} className="d-block w-100 i2" alt="..." />
                         <div className='con1'>
                             <img className='i' src={myimages7} alt="" />
-                            <h1 style={{   color: 'rgb(170, 216, 226)' }}>SCARPETTA</h1>
+                            <h1 style={{   color: 'rgb(170, 216, 226)',fontSize:'80px' }}>SCARPETTA</h1>
                             <div className='lan1'>
                                 <p> ENGLISH  |</p>
                                 <p>HINDI  |</p>
@@ -77,8 +77,8 @@ function TV(){
                         <img src={myimages4} className="d-block w-100 i2" alt="..." />
                         <div className='con1 con4'>
                             <img className='i' src={myimages7} alt="" />
-                            <h1 style={{   color: 'rgba(234, 216, 53, 1)',marginLeft:'26px' }}>YOUNG</h1>
-                            <h1 style={{   color: 'rgba(234, 216, 53, 1)',marginTop:'-9px'}}>SHERLOCK</h1>
+                            <h1 style={{   color: 'rgba(234, 216, 53, 1)',marginLeft:'26px',fontSize:'70px'  }}>YOUNG</h1>
+                            <h1 style={{   color: 'rgba(234, 216, 53, 1)',marginTop:'-9px',fontSize:'70px' }}>SHERLOCK</h1>
                             <div className='lan1'>
                                 <p> ENGLISH  |</p>
                                 <p>HINDI  |</p>
@@ -97,7 +97,7 @@ function TV(){
                         <img src={myimages5} className="d-block w-100 i2" alt="..." />
                         <div className='con1 con3'>
                             <img className='i' src={myimages7} alt="" />
-                            <h1 style={{   color: 'rgba(234, 216, 53, 1)' }}>SIREN'S KISS</h1>
+                            <h1 style={{   color: 'rgba(234, 216, 53, 1)',fontSize:'80px'  }}>SIREN'S KISS</h1>
                             <div className='lan1'>
                                 <p>KOREAN  |</p>
                                 <p> ENGLISH  |</p>
@@ -115,7 +115,7 @@ function TV(){
                         <img src={myimages6} className="d-block w-100 i2" alt="..." />
                         <div className='con1 con3'>
                             <img className='i' src={myimages7} alt="" />
-                            <h1 style={{   color: 'rgba(234, 216, 53, 1)' }}>THE CROSS</h1>
+                            <h1 style={{   color: 'rgba(234, 216, 53, 1)',fontSize:'80px'  }}>THE CROSS</h1>
                             <div className='lan1'>
                                 <p>TAMIL  |</p>
                                 <p> ENGLISH  |</p>

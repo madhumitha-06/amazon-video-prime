@@ -4,42 +4,49 @@
 
 .head1 {
     display: flex;
-    gap: 12px;
+    gap: 15px;
     justify-content: space-between;
+    margin-left: 50px;
     cursor: pointer;
+    margin-top: 5px;
+
 }
 
 .head2 {
     display: flex;
-    gap: 11px;
+    gap: 15px;
     justify-content: space-between;
     cursor: pointer;
+    margin-left: 300px;
 }
 
 .Headermenu {
-    height: 30px;
-    width: 100%;
-    background-color: black; 
+    height: 60px;
+    /* width: 206vh; */
+    background-color: black;
     display: flex;
     gap: 90px;
     color: white;
-    font-size: xx-small;
-    font-weight: 300;
-    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 800;
     padding-top: 8px;
     position: sticky;
-    top:0px;
+    top: 0px;
     z-index: 1000;
 }
 
 .btn1 {
-    height: 20px;
-    width: 60px;
+    display: flex;
+    height: 35px;
+    width: 130px;
     background-color: rgb(117, 169, 225);
     color: white;
     border: none;
     border-radius: 5px;
     margin: -3px;
+    margin-top: 3px;
+    justify-content: center;
+    align-items: center;
 }
 
 .prime {
@@ -57,21 +64,22 @@
 }
 
 .profile_menu {
-    height: 110px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     position: absolute;
     top: 110%;
     right: 0;
     left: -15px;
     background: rgb(87, 82, 82);
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 10px;
     list-style-type: none;
     opacity: 0;
     visibility: hidden;
     transform: translateY(10px);
     z-index: 1000;
+
 }
 
 .profile-container:hover .profile_menu {
@@ -94,103 +102,119 @@
     color: white;
     padding-top: 10px;
 }
-
+.sam{
+    font-size: medium;
+    font-weight: lighter;
+}
 
 .para1 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     margin: -3px;
-    padding-right: 2px;
-    padding-top: -3px;
-    width: 18px;
-    height: 19px;
+    width: 33px;
+    height: 33px;
+     padding-top: -5px;
+
 }
 
 .para1:hover {
     background-color: grey;
-    margin-top: -2px;
     color: black;
     border-radius: 50%;
-    padding-left: 2.3px;
-    padding-top: 1px;
+    padding-left: 1px;
+    padding-bottom: 22px;
+    margin-top: 5px;
+    padding-top: 5px;
 }
-.selectedpath
-{
+
+.selectedpath {
     background-color: grey;
     border-radius: 50%;
-    padding-left: 2.3px;
-    padding-top: 0.8px;
+    padding-left: 1px;
+    margin-top: 6px;
+    padding-bottom: 14px;
 }
+
 .button.sidemenu.selectedpath1 {
     background-color: grey !important;
 }
-.button
-{
+
+.button {
+    height: 35px;
+    width: fit-content;
     border-radius: 5px;
     border: none;
     background-color: black;
     color: white;
-    margin-bottom:5px;
+    margin-bottom: 5px;
     padding: 2px 4px;
     cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.button:hover{
+
+.button:hover {
     background-color: lightgray
 }
-.bookmark{
+
+.bookmark {
     position: absolute;
-     height: 100px;
-     width: 70px;
+    height: 200px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: medium;
 }
+
 .overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .overlay-bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .search-box {
-  position: absolute;
-  top: 50px;
-  left: 80px;
-  width: 80%;
-  height: 100px;
-  background-color:rgb(60, 53, 53);
-  border-radius: 10px;
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    width: 80%;
+    height: 150px;
+    background-color: rgb(60, 53, 53);
+    border-radius: 10px;
 }
 
 .search-box input {
-  width: 90%;
-  height: 45px;
-  padding-left: 10px;
-  margin-top: 25px;
-  margin-left: 25px;
-  margin-right: 20px;
-  font-size: 20px;
-  border-radius: 10px;
-  border: 2px solid white;
-  background-color:rgb(94, 90, 90);
-  outline: none;
+    width: 95%;
+    height: 65px;
+    padding-left: 10px;
+    margin-top: 43px;
+    margin-left: 25px;
+    margin-right: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: rgb(94, 90, 90);
+    outline: none;
 }
-.close-btn
-{
+
+.close-btn {
     position: absolute;
-    top: 55px;
-    left: 635px;
+    top: 155px;
+    left: 1245px;
     z-index: 1;
     border: none;
-    background-color:rgb(60, 53, 53);
+    background-color: rgb(60, 53, 53);
     color: white;
-    
+
 }
 
-
-
+.bm {
+    padding-top: 17px;
+}

@@ -1,14 +1,14 @@
 .con3
 {
     position: absolute;
-    top: 80px !important;
-    left: 15px !important;
+    top: 110px !important;
+    left: 30px !important;
 }
 .mx
 {
     display: flex;
      padding-top: -20px;
-     font-size:small;
+     font-size:30px;
      font-weight: lighter;
 }
 .play
@@ -20,14 +20,15 @@
 .play1
 {
     display: flex;
-    height: 19px;
-    width: 19px;
+    height: 25px;
+    width: 25px;
     background-color: white;
     border-radius: 50%;
     border: none;
     justify-content: center;
     align-items: center;
-    margin-right: 5px;
+    margin-right: 10px;
+    margin-top: 12px;
 }
 .mx1
 {
@@ -36,24 +37,26 @@
 .mn
 {
    color: rgb(246, 133, 13);
-
    margin-top: -5px;
    font-size: 35px;
 }
 .ns
 {
-    font-size: small;
+    font-size: large;
     font-weight: bolder;
     margin-top: -8px;
     margin-left: 50px;
 }
 .f2
 {
-    height: 30px;
-    width: 80px !important;
+    height: 60px;
+    width: 140px !important;
     background-color: white;
     color: black;
     margin-right: 8px;
+    font-size: medium;
+    border-radius: 10px;
+    margin-top: 3px;
 }
 .play3
 {
@@ -62,8 +65,8 @@
 .sym2
 {
   display: flex;
-  height: 30px !important;  
-  width: 30px;
+  height: 60px !important;  
+  width: 60px;
   border-radius: 50%;
   border: none;
   justify-content: center;
@@ -86,27 +89,27 @@
 .last2
 {
     display: flex;
-    font-size: 10px;
+    font-size: 16px;
     color: white;
     margin-top: 5px;
 }
 .t1
 {
     display: flex;
-    height: 10px;
-    width: 10px;
+    height: 20px;
+    width: 20px;
     background-color: blue;
     border: none;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    margin-right: 4px;
+    margin-right: 10px;
     margin-top: 2px;
 }
 .t2
 {
-    height: 5px;
-    width: 5px;
+    height: 10px;
+    width: 10px;
     color: white;
 }
 .sym3
@@ -117,4 +120,15 @@
 {
     position: absolute;
     top: 50px;
+    left: 30px;
+}
+.i2
+{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;object-position: 100% 0%;
+}
+.welcome1
+{
+    font-size: 80px;
 }

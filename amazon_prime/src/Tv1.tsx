@@ -20,7 +20,7 @@ function Tv1(props:any){
           <p className="ic2"><FontAwesomeIcon icon={faPlus}/></p>
         </div>
         <p className="icon3">
-          <FontAwesomeIcon style={{ color: "rgba(238, 210, 52, 1)" }} icon={faBasketShopping}/>   Watch with a Prime membership
+          <FontAwesomeIcon style={{ color: "rgba(238, 210, 52, 1)",fontSize:"medium" }} icon={faBasketShopping}/>   Watch with a Prime membership
         </p>
         <p className="release">
           {props.parent.year}

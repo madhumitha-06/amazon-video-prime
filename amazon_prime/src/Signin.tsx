@@ -43,6 +43,7 @@ function Signin() {
 
     return (
         <>
+        <div className='singer'>
             <img className='img1' src={myimages} alt="" />
             <div className='main'>
                 <p className='signin'>Sign in</p>
@@ -61,7 +62,7 @@ function Signin() {
                     onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPassword(e.target.value)}
                 />
                 {error && (
-                    <p style={{ color: 'red', fontSize: '5px',marginBottom:"-8px" }}>
+                    <p style={{ color: 'red', fontSize: '10px',marginBottom:"-8px" }}>
                         {error}
                     </p>
                 )}
@@ -100,6 +101,7 @@ function Signin() {
                 <p>Help</p>
             </div>
             <p className='para'>©️ 1996-2026, Amazon.com, Inc. or its affiliates</p>
+        </div>
         </>
     );
 }

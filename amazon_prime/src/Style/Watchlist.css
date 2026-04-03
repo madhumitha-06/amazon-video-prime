@@ -1,10 +1,10 @@
 .watch
 {
  border: none;
- height: 30px;
- width: 60px !important;
- font-size: x-small;
- border-radius: 3px;
+ height: 70px;
+ width: 130px !important;
+ font-size: large;
+ border-radius: 5px;
  margin-right: 10px;
  background-color: black;
  border: 1px solid grey;
@@ -17,9 +17,9 @@
 }
 .drop{
     display: flex;
-    height: 30px;
-    width: 130px;
-    font-size: x-small;
+    height: 70px;
+    width: 250px;
+    font-size: large;
     justify-content: center;
     align-items: center;
       margin-right: 20px;
@@ -30,17 +30,17 @@
 }
 .w1
 {
- padding-left: 250px;
- padding-top: 20px;
+ padding-left: 570px;
+ padding-top: 50px;
  margin-bottom: 0px;  
  color: white;
-    font-size: x-small;
+font-size: medium;
 }
 .w2
 {
- padding-left: 150px;
+ padding-left: 450px;
    color: white;
-    font-size: x-small;
+    font-size: medium;
 }
 .footer3
 {
@@ -59,4 +59,14 @@
 }
 .yyear2{
     color: rgb(120, 115, 115) !important;
+}
+.dropdown-menu
+{
+  height: 130px;
+    width: 250px;
+}
+.fast1
+{
+margin-top: 500px;
+margin-left: 100px !important;
 }

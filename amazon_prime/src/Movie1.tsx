@@ -32,12 +32,12 @@ function movie1() {
                 <div className="carousel-inner">
                     <div className="carousel-item active mov1">
                         {/* <img src={myimages1} className="d-block w-100 i2" alt="..." /> */}
-                        <video autoPlay  muted  className="hero-video i2" width="100%" style={{marginTop:'-40px',height:'320px'}} >
+                        <video autoPlay  muted  className="hero-video i2" width="100%" style={{marginTop:'-90px',height:'600px'}} >
                             <source src={myVideo} type="video/mp4" />
                         </video>
                         <div className='con1'>
                             {/* <img className='i' src={myimages7} alt="" /> */}
-                            <h1 style={{marginTop:'30px',fontSize:'40px'}}>SUBEDAAR</h1>
+                            <h1 style={{marginTop:'70px',fontSize:'80px'}}>SUBEDAAR</h1>
                             <div className='lan'>
                                 <p>HINDI  |</p>
                                 <p>  TAMIL  |</p>
@@ -45,20 +45,20 @@ function movie1() {
                             </div>
                             <p className='green'><FontAwesomeIcon style={{ color: 'rgb(45, 214, 45)' }} icon={faArrowTrendUp} /><span style={{ color: 'rgb(45, 214, 45)' }}> # 1 in India</span></p>
                             <div className='f1'><button style={{ marginRight: '5px' }} className='h1'>Join prime Watch now</button>
-                                <p className='sym sym2 sym3'>+</p>
+                                <p className='sym sym2 sym3 pluse'>+</p>
                                 <button style={{ marginBottom: '5px' }} className='sym sym1 sym2'><i className="bi bi-info-circle s"></i></button>
                             </div>
-                            <div className='last'><span><FontAwesomeIcon style={{ color: 'rgba(237, 208, 42, 1)' }} icon={faBasketShopping} />  Watch with a Prime Membership</span></div>
+                            <div className='last'><span><FontAwesomeIcon style={{ color: 'rgba(237, 208, 42, 1)',fontSize:"medium" }} icon={faBasketShopping} />  Watch with a Prime Membership</span></div>
                         </div>
                     </div>
                     <div className="carousel-item">
                         {/* <img src={myimages2} className="d-block w-100 i2" alt="..." /> */}
-                        <video  autoPlay muted loop className="hero-video i2" width="100%" style={{marginTop:'-40px',height:'320px'}} >
+                        <video  autoPlay muted loop className="hero-video i2" width="100%" style={{marginTop:'-60px',height:'600px'}} >
                             <source src={myVideo2} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                         <div className='con1 con2'>
-                            <h1 style={{ color: 'rgba(236, 87, 12, 1)' }}>ANACONDA</h1>
+                            <h1 style={{ color: 'rgba(236, 87, 12, 1)',fontSize:'80px' }}>ANACONDA</h1>
                             <div className='lan1'>
                                 <p> ENGLISH  |</p>
                                 <p>HINDI  |</p>
@@ -69,18 +69,18 @@ function movie1() {
                                 <p className='sym sym2 sym3'>+</p>
                                 <button style={{ marginBottom: '5px' }} className='sym sym1 sym2'><i className="bi bi-info-circle s"></i></button>
                             </div>
-                            <div className='last'><span><FontAwesomeIcon style={{ color: 'rgba(237, 208, 42, 1)' }} icon={faBasketShopping} /> Available on Rent</span></div>
+                            <div className='last'><span><FontAwesomeIcon style={{ color: 'rgba(237, 208, 42, 1)',fontSize:"medium" }} icon={faBasketShopping} /> Available on Rent</span></div>
                         </div>
                     </div>
                     <div className="carousel-item">
                         {/* <img src={myimages3} className="d-block w-100 i2" alt="..." /> */}
-                        <video  autoPlay muted  loop className="hero-video i2" width="100%" style={{marginTop:'-40px',height:'320px'}}>
+                        <video  autoPlay muted  loop className="hero-video i2" width="100%" style={{marginTop:'-60px',height:'600px'}}>
                             <source src={myVideo3} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                         <div className='con1'>
-                            <h1 style={{ color: 'rgba(81, 203, 237, 1)' }}>tu meri main tera</h1>
-                            <h1 className='heading' style={{ color: 'rgba(65, 220, 228, 1)' }}>main tera tu meri</h1>
+                            <h1 style={{ color: 'rgba(81, 203, 237, 1)',fontSize:'80px' }}>tu meri main tera</h1>
+                            <h1 className='heading' style={{ color: 'rgba(65, 220, 228, 1)',fontSize:'80px' }}>main tera tu meri</h1>
                             <div className='lan1'>
                                 <p> ENGLISH  |</p>
                                 <p>HINDI  |</p>
@@ -91,17 +91,17 @@ function movie1() {
                                 <p className='sym sym2 sym3'>+</p>
                                 <button style={{ marginBottom: '5px' }} className='sym sym1 sym2'><i className="bi bi-info-circle s"></i></button>
                             </div>
-                            <div className='last'><span><FontAwesomeIcon style={{ color: 'rgba(237, 208, 42, 1)' }} icon={faBasketShopping} />   Watch with a Prime Membership</span></div>
+                            <div className='last'><span><FontAwesomeIcon style={{ color: 'rgba(237, 208, 42, 1)',fontSize:"medium"}} icon={faBasketShopping} />   Watch with a Prime Membership</span></div>
                         </div>
                     </div>
                     <div className="carousel-item">
                         {/* <img src={myimages4} className="d-block w-100 i2" alt="..." /> */}
-                        <video autoPlay muted loop className="hero-video i2"width="100%" style={{marginTop:'-40px',height:'320px'}} >
+                        <video autoPlay muted loop className="hero-video i2"width="100%" style={{marginTop:'-60px',height:'600px'}} >
                             <source src={myVideo1} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                         <div className='con1 con2'>
-                            <h1 style={{ color: 'rgba(244, 228, 180, 1)' }}>IKKIS</h1>
+                            <h1 style={{ color: 'rgba(244, 228, 180, 1)',fontSize:'80px' }}>IKKIS</h1>
                             <div className='lan1'>
                                 <p> ENGLISH  |</p>
                                 <p>HINDI  |</p>
@@ -112,41 +112,41 @@ function movie1() {
                                 <p className='sym sym2 sym3'>+</p>
                                 <button style={{ marginBottom: '5px' }} className='sym sym1 sym2'><i className="bi bi-info-circle s"></i></button>
                             </div>
-                            <div className='last'><span><FontAwesomeIcon style={{ color: 'rgba(237, 208, 42, 1)' }} icon={faBasketShopping} /> Available on Rent</span></div>
+                            <div className='last'><span><FontAwesomeIcon style={{ color: 'rgba(237, 208, 42, 1)',fontSize:"medium" }} icon={faBasketShopping} /> Available on Rent</span></div>
                         </div>
                     </div>
                     <div className="carousel-item">
                         {/* <img src={myimages5} className="d-block w-100 i2" alt="..." /> */}
-                        <video autoPlay muted  loop className="hero-video i2" width="100%" style={{marginTop:'-40px',height:'320px'}} >
+                        <video autoPlay muted  loop className="hero-video i2" width="100%" style={{marginTop:'-60px',height:'600px'}} >
                             <source src={myVideo4} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                         <div className='con1 con3'>
                             <img className='i' src={myimages7} alt="" />
-                            <h1 className='head' style={{ color: 'lightgold' }}>COBRA</h1>
+                            <h1 className='head' style={{ color: 'lightgold',fontSize:'80px' }}>COBRA</h1>
                             <p className='green'><FontAwesomeIcon style={{ color: 'rgb(45, 214, 45)' }} icon={faArrowTrendUp} /><span style={{ color: 'rgb(45, 214, 45)' }}> # 2 in India</span></p>
                             <div className='f1'><button style={{ marginRight: '5px' }} className='h1'>Join prime Watch now</button>
                                 <p className='sym sym2 sym3'>+</p>
                                 <button style={{ marginBottom: '5px' }} className='sym sym1 sym2'><i className="bi bi-info-circle s"></i></button>
                             </div>
-                            <p className='last1'><span><FontAwesomeIcon style={{ color: 'rgba(237, 208, 42, 1)' }} icon={faBasketShopping} /> Subscribe for ₹29/month for 1 month(s) and ₹39/month thereafter</span></p>
+                            <p className='last'><span><FontAwesomeIcon style={{ color: 'rgba(237, 208, 42, 1)',fontSize:"medium" }} icon={faBasketShopping} /> Subscribe for ₹29/month for 1 month and ₹39/month thereafter</span></p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         {/* <img src={myimages6} className="d-block w-100 i2" alt="..." /> */}
-                         <video autoPlay muted  loop className="hero-video i2" width="100%" style={{marginTop:'-40px',height:'320px'}} >
+                         <video autoPlay muted  loop className="hero-video i2" width="100%" style={{marginTop:'-60px',height:'600px'}} >
                             <source src={myVideo5} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                         <div className='con1 con3'>
                             <img className='i' style={{ marginBottom: '5px' }} src={myimages7} alt="" />
-                            <h1 className='head' style={{ color: 'lightgold' }}>WALTER</h1>
+                            <h1 className='head' style={{ color: 'lightgold',fontSize:'80px' }}>WALTER</h1>
                             <p className='green'><FontAwesomeIcon style={{ color: 'rgb(45, 214, 45)' }} icon={faArrowTrendUp} /><span style={{ color: 'rgb(45, 214, 45)' }}> # 3 in India</span></p>
                             <div className='f1'><button style={{ marginRight: '5px' }} className='h1'>Join prime Watch now</button>
                                 <p className='sym sym2 sym3'>+</p>
                                 <button style={{ marginBottom: '5px' }} className='sym sym1 sym2'><i className="bi bi-info-circle s"></i></button>
                             </div>
-                            <p className='last1'><span><FontAwesomeIcon style={{ color: 'rgba(237, 208, 42, 1)' }} icon={faBasketShopping} /> Subscribe for ₹29/month for 1 month(s) and ₹39/month thereafter</span></p>
+                            <p className='last'><span><FontAwesomeIcon style={{ color:'rgba(237, 208, 42, 1)',fontSize:"medium" }} icon={faBasketShopping}/> Subscribe for ₹29/month for 1 month and ₹39/month thereafter</span></p>
                         </div>
                     </div>
                 </div>

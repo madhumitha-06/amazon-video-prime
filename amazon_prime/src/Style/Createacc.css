@@ -1,19 +1,20 @@
 .createacc
 {
-    height: 290px;
-    width: 180px;
+    height: 480px;
+    width: 330px;
     border: 0.3px solid lightgray;
     padding-left: 7px;
-    margin-left: 275px;
+    margin-left: 590px;
     border-radius: 5px;
     padding-top: 5px;
+    padding-right: 10px;
 }
-.Create{
-    font-size: medium;
+.create{
+    font-size: 30px;
 }
 .detail
 {
-    font-size: xx-small;
+    font-size:medium;
     font-weight:bold;
     margin-bottom: -5px;
       margin-left: 5px;
@@ -21,35 +22,42 @@
 }
 .detailinput
 {
-    height: 15px;
-    width: 160px;
-    margin-top: -20px;
-    font-size: 7px;
+    height: 30px;
+    width: 250px;
+    margin-top:7px;
+    font-size: x-small;
     color: black;
     border-radius: 5px;
     border: 0.5px solid gray;
     margin-left: 3px;
     padding-left: 3px;
+
 }
 .password
 {
-    font-size: 8px;
+    font-size:x-small;
     margin-top: 5px;
     margin-bottom: 3px;
 }
 .verify
 {
-    font-size:8px;
-    font-weight: 200px;
+    font-size:small;
+    font-weight: 500px;
     margin-bottom: 5px;
+    margin-top: 8px;
 }
 .verifybtn
 {
-    height: 20px;
-    width: 160px;
+    height: 40px;
+    width: 300px;
     background-color: rgb(243, 223, 124);
     border-radius:20px;
-    font-size: xx-small;
+    font-size:medium;
     margin-bottom: 3px;
     border: none;
+    margin-top: 15px;
+}
+.statement1{
+    font-size: x-small;
+    margin-left: 5px;
 }

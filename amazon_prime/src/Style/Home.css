@@ -8,30 +8,36 @@
 {
   width: 50%;
   padding-top: 20px;
-  padding-left: 26px;
+  padding-left: 50px;
 }
 .image1
 {
-  height: 380px;
-  width: 57%;
+  height: 620px;
+  width: 63%;
   object-fit: cover;
   object-position: 20px;
 }
 .content
 {
-  font-size: xx-small;
+  font-size: large;
+}
+.welcome
+{
+  font-size: 52px;
+  padding-top: 30px;
 }
 .b1
 {
-  height: 30px;
-  width: 170px;
+  height: 50px;
+  width: 350px;
   border: none;
   border-radius: 5px;
   background-color: white;
   color: black;
-  font-size: xx-small;
+  font-size: large;
   font-weight: 500;
-  margin-left: 50px;
+  margin-left: 70px;
+  margin-top: 20px;
 }
 .b1:hover
 {
@@ -45,9 +51,9 @@
 }
 .caption
 {
-  font-size: 9px;
-  margin-left: 85px;
- margin-top: 5px;
+  font-size:large;
+  margin-left:160px;
+ margin-top: 17px;
 }
 .overall2
 {
@@ -59,8 +65,8 @@
 }
 .rent
 {
-  height: 30px;
-  width: 60px;
+  height: 50px;
+  width: 90px;
   margin-left: 0px !important;
   margin-top: 10px;
   font-weight: 600 !important;
@@ -77,22 +83,27 @@
   width: 50%;
   display:flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 10px;
 }
 .icon1
 {
-  height: 78px;
-  width: 110px;
-  border-radius: 5px;
+  height: 150px;
+  width: 220px;
+  border-radius: 15px;
+}
+.ice1
+{
+  margin-top: -20px;
 }
 .overall3
 {
+  height: 500px;
   background-color: rgb(4, 4, 5) !important;
 }
 .watch5
 {
-  height: 30px;
-  width: 90px !important;
+  height: 50px;
+  width: 140px !important;
 }
 .prime3
 {
@@ -100,21 +111,27 @@
 }
 .footer
 {
-  height: 70px;
+  height: 100px;
   background-color: rgb(29, 27, 27);
 }
 .foot-img
 {
-  height: 15px;
-  width: 50px;
-  margin-left: 350px;
+  height: 30px;
+  width:80px;
+  margin-left: 725px;
+  margin-top: 10px;
 }
 .down1
 {
   margin-top: 5px;
+  font-size: small;
+  margin-left:15px;
+
 }
 .p1
 {
   color: rgb(198, 188, 188);
+  font-size:small ;
+  margin-left: 0px;
 } 
 

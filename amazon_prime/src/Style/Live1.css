@@ -1,33 +1,33 @@
 .fan
 {
-    height: 40px;
-    width: 60px;
+    height: 70px;
+    width: 100px;
     border-radius: 5px;
     border: none;
     background-color: rgb(56, 52, 52);
 }
 .fanimg
 {
-    height: 30px;
-    width: 30px;
+    height: 60px;
+    width: 60px;
 }
 .fan1
 {
     margin-bottom: 10px;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 .fan2
 {
-    margin-left: 40px;
+    margin-left: 50px;
 
 }
 .f{
     display: flex;
     gap: 90px;
-    font-size: 9px;
+    font-size: 15px;
     font-weight: bold;
     color: white;
-    margin-left: 40px;
+    margin-left: 45px;
     margin-top: 30px;
 }
 .live
@@ -35,53 +35,53 @@
     margin-top: 20px;
 }
 .fans6{
-    height: 40px;
-    width: 150px;
+    height: 70px;
+    width: 190px;
     overflow: auto;
-    border-radius: 5px;
+    border-radius: 7px;
     border: none;
     background-color: rgb(56, 52, 52);
-    font-size: 10px;
+    font-size: 15px;
     color: white;
 }
 .fans2{
-    height: 40px;
-    width: 100px;
+    height: 70px;
+    width: 230px;
     overflow: auto;
-    border-radius: 5px;
+    border-radius: 7px;
     border: none;
     background-color: rgb(56, 52, 52);
-    font-size: 10px;
+    font-size: 15px;
     color: white;
 }
 .fans3{
-    height: 40px;
-    width: 80px;
+    height: 70px;
+    width: 350px;
     overflow: auto;
-    border-radius: 5px;
+    border-radius: 7px;
     border: none;
     background-color: rgb(56, 52, 52);
-    font-size: 10px;
+    font-size: 15px;
     color: white;
 }
 .fans4{
-    height: 40px;
-    width: 70px;
+    height: 70px;
+    width: 270px;
     overflow: auto;
-    border-radius: 5px;
+    border-radius: 7px;
     border: none;
     background-color: rgb(56, 52, 52);
-    font-size: 10px;
+    font-size: 15px;
     color: white;
 }
 .fans5{
-    height: 40px;
-    width: 90px;
+    height: 70px;
+    width: 160px;
     overflow: auto;
-    border-radius: 5px;
+    border-radius: 7px;
     border: none;
     background-color: rgb(56, 52, 52);
-    font-size: 10px;
+    font-size:15px;
     color: white;
 }
 .fan1{
@@ -89,13 +89,13 @@
     gap: 20px;
 }
 .fans7{
-    height: 40px;
-    width: 460px;
+    height: 70px;
+    width: 560px;
     overflow: auto;
-    border-radius: 5px;
+    border-radius: 7px;
     border: none;
     background-color: rgb(56, 52, 52);
-    font-size: 10px;
+    font-size: 15px;
     color: white;
 }
 .fan2{

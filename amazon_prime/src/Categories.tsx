@@ -18,7 +18,7 @@ function Categories() {
                     <p className='box10'>Romance</p>
                     <p className='box11'>science fiction</p>
                 </div>
-                 <p className='titles'>Featured Collections</p>
+                <p className='titles'>Featured Collections</p>
                 <div className='Featured'>
                     <p>Home premiere</p>
                     <p>New Releases</p>
@@ -26,12 +26,14 @@ function Categories() {
                     <p>Critically acclaimed</p>
                     <p>Kids</p>
                 </div>
-                <img className='foot-img foot1'src="https://m.media-amazon.com/images/G/01/digital/video/acquisition/logo/pv_logo_white._CB548637580_.png" alt="Amazon"></img>
-                <div className='bottom'>
-                    <p>Terms and Privacy Notice</p>
-                    <p>Send us feedback</p>
-                    <p>Help</p>
-                    <p>© 1996-2026, Amazon.com, Inc. or its affiliates</p>
+                <div className='footer footer1 foot fast fast1' >
+                    <img className='foot-img' src="https://m.media-amazon.com/images/G/01/digital/video/acquisition/logo/pv_logo_white._CB548637580_.png" alt="Amazon"></img>
+                    <div className='down down1 down3'>
+                        <p>Terms and Privacy Notice</p>
+                        <p>Send as Feedback</p>
+                        <p>Help</p>
+                        <p className="yyear">© 1996-2026, Amazon.com, Inc. or its affiliates</p>
+                    </div>
                 </div>
             </div>
         </>
