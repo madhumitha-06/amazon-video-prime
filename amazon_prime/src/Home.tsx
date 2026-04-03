@@ -67,7 +67,7 @@ function Home() {
             </div>
             <div className='footer' >
                 <img className='foot-img' src="https://m.media-amazon.com/images/G/01/digital/video/acquisition/logo/pv_logo_white._CB548637580_.png" alt="Amazon"></img>
-                <div className='down down1'>
+                <div className='down down1 d2'>
                     <p>Terms and Privacy Notice</p>
                     <p>Send as Feedback</p>
                     <p>Help</p>
